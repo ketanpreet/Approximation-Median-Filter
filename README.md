@@ -20,12 +20,15 @@ This dataset should include a variety of scenarios with different lighting condi
 Preprocessing: Preprocess the images by applying a traditional median filter to create ground truth images. 
 This step helps in training the network to learn the approximation.
 
+
 7. Network Architecture
 Design a convolutional neural network (CNN) that can learn to approximate the median filtering process.
 
 Example CNN Architecture:
 
 Input Layer: Takes in the video frames or images.
+![image](https://github.com/ketanpreet/Approximation-Median-Filter/assets/162333255/17322253-2311-4090-b5ff-0d88e737e7c9)
+
 Convolutional Layers: Apply a series of convolutional layers with small filters (e.g., 3x3 or 5x5) to capture spatial features.
 Activation Layers: Use non-linear activation functions like ReLU to introduce non-linearity.
 Pooling Layers: Optionally use pooling layers to reduce the spatial dimensions and computation.
