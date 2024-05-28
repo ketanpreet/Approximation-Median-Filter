@@ -1,6 +1,8 @@
 Performing approximate median filtering for moving object segmentation using deep learning involves several steps.
 The goal is to leverage deep learning techniques to efficiently approximate the median filter,
 which is commonly used for noise reduction in image processing and is useful in the context of moving object segmentation.
+
+
 ![image](https://github.com/ketanpreet/Approximation-Median-Filter/assets/162333255/97379f81-a233-44ee-aa79-025460b61a1e)
 
 Here's a structured approach to achieve this:
